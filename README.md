@@ -38,7 +38,10 @@ This section details the work completed for the first project submission.
     - Set up the project repository and initial file structure.
     - Designed and built the responsive UI layout with a header, Footer and product grid.
     - Populated the product grid with sample items from a JavaScript array.
-- **Technologies Used:** HTML5, CSS, JavaScript 
+- **Technologies Used:** HTML5, CSS, JavaScript
+
+## SiteMap
+<img width="377" height="499" alt="image" src="https://github.com/user-attachments/assets/fa7f4a45-9b90-43ce-a746-a3015b10373d" />
 
 ## Change Log
 All notable changes to this project will be documented in this section.
@@ -69,11 +72,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 2.  Navigate to the project directory.
 3.  Open the `index.html` file in a modern web browser.
 4.  View the various options, and links that will take you to different web pages.
-
----
-## SiteMap
-<img width="377" height="499" alt="image" src="https://github.com/user-attachments/assets/fa7f4a45-9b90-43ce-a746-a3015b10373d" />
-
 
 
 ---
