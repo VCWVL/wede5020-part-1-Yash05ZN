@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkers - Premium Supermarket</title>
+    <title>Returns Policy - Checkers</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -123,71 +123,32 @@
             min-height: calc(100vh - 200px);
         }
         
-        /* Hero Section */
-        .hero {
-            background: linear-gradient(rgba(12, 110, 46, 0.8), rgba(12, 110, 46, 0.8)), url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
-            background-size: cover;
-            background-position: center;
-            color: var(--white);
-            text-align: center;
-            padding: 4rem 1rem;
+        .policy-content {
+            background-color: var(--light-gray);
+            padding: 2rem;
             border-radius: 10px;
+            margin: 2rem 0;
+        }
+        
+        .policy-section {
             margin-bottom: 2rem;
         }
         
-        .hero h2 {
-            font-size: 2.5rem;
+        .policy-section h3 {
+            border-bottom: 2px solid var(--primary-green);
+            padding-bottom: 0.5rem;
             margin-bottom: 1rem;
-            color: var(--white);
         }
         
-        .hero p {
-            font-size: 1.2rem;
-            max-width: 800px;
-            margin: 0 auto 2rem;
-        }
-        
-        .btn {
+        .back-btn {
             display: inline-block;
-            background-color: var(--accent-yellow);
-            color: var(--dark-gray);
-            padding: 0.8rem 1.5rem;
-            border-radius: 5px;
-            font-weight: 600;
-            transition: background-color 0.3s, transform 0.3s;
-        }
-        
-        .btn:hover {
-            background-color: #e6b328;
-            transform: translateY(-3px);
-            text-decoration: none;
-        }
-        
-        /* Features Section */
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin: 3rem 0;
-        }
-        
-        .feature-card {
-            background-color: var(--light-gray);
-            border-radius: 10px;
-            padding: 1.5rem;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .feature-icon {
-            font-size: 2.5rem;
+            margin-top: 2rem;
             color: var(--primary-green);
-            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        .back-btn i {
+            margin-right: 0.5rem;
         }
         
         /* Footer */
@@ -273,14 +234,6 @@
             nav.show {
                 display: block;
             }
-            
-            .hero h2 {
-                font-size: 2rem;
-            }
-            
-            .hero p {
-                font-size: 1rem;
-            }
         }
     </style>
 </head>
@@ -289,7 +242,7 @@
     <header>
         <div class="container header-content">
             <div class="logo">
-               <img src="_images/Checkers Logo.jpg" alt="Checkers Logo">
+               <img src="_images/Checkers Logo.jpg" alt="Checkers Logo"> 
             </div>
             <button class="mobile-menu-btn" id="mobileMenuBtn">
                 <i class="fas fa-bars"></i>
@@ -300,7 +253,6 @@
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="products.html">Products</a></li>
-                    <li><a href="enquiry.html">Enquiry</a></li>
                     <li><a href="contact-us.html">Contact Us</a></li>
                 </ul>
             </nav>
@@ -310,46 +262,70 @@
     <!-- Main Content -->
     <main>
         <div class="container">
-            <div class="hero">
-                <h2>Welcome to Checkers</h2>
-                <p>South Africa's leading supermarket for quality products at competitive prices. Discover our weekly specials and experience shopping reimagined.</p>
-                <a href="products.html" class="btn">Explore Products</a>
-            </div>
+            <h2>Returns & Refunds Policy</h2>
+            <p>Last updated: October 26, 2023</p>
             
-            <h2>Featured Services</h2>
-            <div class="features">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-tags"></i>
-                    </div>
-                    <h3>Weekly Specials</h3>
-                    <p>Explore our amazing deals and save on your favorite products every week.</p>
-                    <a href="products.html" class="btn">View Specials</a>
+            <div class="policy-content">
+                <div class="policy-section">
+                    <h3>1. Returns Eligibility</h3>
+                    <p>We want you to be completely satisfied with your purchase from Checkers. If you're not happy with your purchase, you may return most items within 30 days of delivery for a refund or exchange.</p>
+                    <p>To be eligible for a return, your item must be:</p>
+                    <ul>
+                        <li>Unused and in the same condition that you received it</li>
+                        <li>In the original packaging</li>
+                        <li>Accompanied by the original receipt or proof of purchase</li>
+                    </ul>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <h3>Store Locator</h3>
-                    <p>Find your nearest Checkers store with our easy-to-use store locator.</p>
-                    <a href="contact-us.html" class="btn">Find Stores</a>
+                
+                <div class="policy-section">
+                    <h3>2. Non-Returnable Items</h3>
+                    <p>Certain types of items cannot be returned for health and safety reasons:</p>
+                    <ul>
+                        <li>Perishable goods (food, flowers, plants)</li>
+                        <li>Personal care items (skincare, cosmetics)</li>
+                        <li>Gift cards</li>
+                        <li>Downloadable software products</li>
+                        <li>Some health and personal care items</li>
+                        <li>Items on clearance or final sale</li>
+                    </ul>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-shopping-basket"></i>
-                    </div>
-                    <h3>Sixty60 Delivery</h3>
-                    <p>Get your groceries delivered to your door in 60 minutes or less.</p>
-                    <a href="services.html" class="btn">Learn More</a>
+                
+                <div class="policy-section">
+                    <h3>3. Return Process</h3>
+                    <p>To initiate a return, please follow these steps:</p>
+                    <ol>
+                        <li>Contact our customer service team at returns@checkers.co.za or 0860 022 222 to obtain a Return Merchandise Authorization (RMA) number</li>
+                        <li>Package the item securely in its original packaging</li>
+                        <li>Include the RMA number clearly on the outside of the package</li>
+                        <li>Ship the package to the address provided by our customer service team</li>
+                    </ol>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3>Xtra Savings</h3>
-                    <p>Join our loyalty program and enjoy exclusive benefits and discounts.</p>
-                    <a href="services.html" class="btn">Join Now</a>
+                
+                <div class="policy-section">
+                    <h3>4. Refunds</h3>
+                    <p>Once we receive your return, we will inspect it and notify you of the status of your refund. If approved, your refund will be processed within 7-10 business days, and a credit will automatically be applied to your original method of payment.</p>
+                    <p>Please note that shipping costs are non-refundable. If you received a refund, the cost of return shipping will be deducted from your refund.</p>
                 </div>
+                
+                <div class="policy-section">
+                    <h3>5. Exchanges</h3>
+                    <p>We only replace items if they are defective or damaged. If you need to exchange an item for the same item, contact us at returns@checkers.co.za with your order number and details about the product you would like to exchange.</p>
+                </div>
+                
+                <div class="policy-section">
+                    <h3>6. Damaged or Defective Items</h3>
+                    <p>If you receive a damaged or defective item, please contact us immediately at returns@checkers.co.za or 0860 022 222. We will arrange for a replacement or refund and may ask for photographs of the damaged item.</p>
+                </div>
+                
+                <div class="policy-section">
+                    <h3>7. Late or Missing Refunds</h3>
+                    <p>If you haven't received a refund within 10 business days after we've approved your return, please check your bank account again first. Then contact your credit card company, as it may take some time before your refund is officially posted.</p>
+                    <p>If you've done all of this and you still have not received your refund, please contact us at returns@checkers.co.za.</p>
+                </div>
+                
+                <a href="javascript:history.back()" class="back-btn">
+                    <i class="fas fa-arrow-left"></i> Back to Previous Page
+                </a>
             </div>
         </div>
     </main>
@@ -365,42 +341,32 @@
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="products.html">Products</a></li>
-                        <li><a href="enquiry.html">Enquiry</a></li>
                         <li><a href="contact-us.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="services.html">Checkers Sixty60</a></li>
-                        <li><a href="services.html">Xtra Savings</a></li>
-                        <li><a href="services.html">Online Shopping</a></li>
-                        <li><a href="services.html">Money Market</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
                     <h3>Legal</h3>
-                <ul>
+                    <ul>
                         <li><a href="terms.html">Terms & Conditions</a></li>
                         <li><a href="privacy.html">Privacy Policy</a></li>
                         <li><a href="returns.html">Returns Policy</a></li>
                         <li><a href="cookies.html">Cookie Policy</a></li>
-                </ul>
+                    </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Connect With Us</h3>
-                    <p>Subscribe to our newsletter for the latest updates and special offers.</p>
-                    <form>
-                        <input type="email" placeholder="Your email address" required style="padding: 0.8rem; width: 100%; margin-bottom: 0.5rem; border-radius: 5px; border: 1px solid #ddd;">
-                        <button type="submit" class="btn">Subscribe</button>
-                    </form>
                     <div class="social-links">
                         <a href="https://www.facebook.com/checkerssa/" target="_blank"><i class="fab fa-facebook"></i></a>
                         <a href="https://www.instagram.com/checkers_sa/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="https://x.com/checkerssa/with_replies" target="_blank"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.linkedin.com/company/checkers/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
+                    <div class="contact-methods" style="margin-top: 1rem;">
+                        <p><i class="fas fa-phone"></i> 0860 022 222</p>
+                        <p><i class="fas fa-envelope"></i> customer.services@checkers.co.za</p>
+                    </div>
                 </div>
+            </div>
             <div class="copyright">
                 <p>&copy; 2023 Checkers. All rights reserved. A division of Shoprite Holdings Ltd.</p>
             </div>
@@ -414,9 +380,11 @@
             const mainNav = document.getElementById('mainNav');
             
             // Mobile menu toggle
-            mobileMenuBtn.addEventListener('click', function() {
-                mainNav.classList.toggle('show');
-            });
+            if (mobileMenuBtn && mainNav) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    mainNav.classList.toggle('show');
+                });
+            }
         });
     </script>
 </body>
