@@ -70,6 +70,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 3.  Open the `index.html` file in a modern web browser.
 4.  View the various options, and links that will take you to different web pages.
 
+---
+## SiteMap
+<img width="377" height="499" alt="image" src="https://github.com/user-attachments/assets/fa7f4a45-9b90-43ce-a746-a3015b10373d" />
+
 
 
 ---
